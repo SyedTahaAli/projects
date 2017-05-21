@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stopwatch">
+        <div id="watch" class="time">00:00:00:00</div>
+        <div class="control">
+            <span id="start" class="start">Start</span>
+            <span id="split" class="split">Split</span>
+            <span id="reset" class="reset">Reset</span>
+        
+        </div>
+    </div>
+    <div class="log">
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Split time</th>
+                    <th>Interval</th>
+                </tr>
+            </thead>
+            <tbody id="list">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

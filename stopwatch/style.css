@@ -1,0 +1,71 @@
+body {
+    background-color: #222;
+    font-size: 1.2em;
+}
+
+div.time {
+    color: #dee;
+    font-size: 7em;
+    padding: 10px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+div.control {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+div.control span {
+    display: flex;
+    color: #dee;
+    border: 2px solid #dee;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+div.control span.start {
+    background-color: #181;
+}
+
+div.control span.split {
+    background-color: #118;
+}
+
+div.control span.reset {
+    background-color: #811;
+}
+
+div.control span:hover {
+    cursor: pointer;
+    background-color: #dee;
+    color: #222;
+}
+
+div.log {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+div.log th  {
+    background-color: #dee;
+    color: #222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    width: 200px;
+}
+
+div.log td {
+    color: #dee;
+    font-size: 0.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
